@@ -1,0 +1,15 @@
+
+:root {
+  --radius-panel: 20px;
+  --background-main: #1e032b;
+  --background-alternate: #34074a;
+  --background-scrollbar-main: #34074a;
+  --background-scrollbar-alternate: #3d093b;
+  --background-scrollbar-thumb-main: #450563;
+  --background-scrollbar-thumb-alternate: #5c1459;
+  --background-nav-tag: #732070;
+  --background-nav-tag-icon: #5c1459;
+  --color-main: #880F71;
+  --color-alternate: #AB8AB7;
+  --color-nav-tag: #250336;
+}
