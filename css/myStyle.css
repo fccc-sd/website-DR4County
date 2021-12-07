@@ -1,6 +1,6 @@
 :root {
   --radius-panel: 20px;
-  --background-main: #1e032b;
+  --background-main: #1D0225;
   --background-alternate: #34074a;
   --background-scrollbar-main: #34074a;
   --background-scrollbar-alternate: #3d093b;
@@ -138,8 +138,12 @@ ul {
   list-style-type: none;
 }
 
+table, tr, th { border: solid 5px var(--background-main); }
 
+table, tbody { width: 100%; }
 
+tr {
+  
+}
 
-
-
+td { flex: 1 1; }
