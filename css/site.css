@@ -139,3 +139,11 @@ section.main p, section.main h3 {
 .images img:hover {
     filter: none;
 }
+
+input {
+    border-radius: 20px;
+}
+
+form {
+    padding: 10px;
+}
