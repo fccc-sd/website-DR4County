@@ -73,7 +73,7 @@ section {
     width: 720px !important;
 }
 
-section.main p, section.main h3 {
+section.main form, section.main h3 {
     padding: 20px;
     margin-bottom: 0;
 } 
