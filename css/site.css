@@ -1,0 +1,149 @@
+body {
+    background: url(../img/background-test.png);
+}
+
+div.main-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header, footer {
+    height: 100px;
+}
+
+header {
+    display: flex !important;
+    flex-direction: row;
+    border-radius: 50px 50px 0 0;
+}
+
+header div.title, header div.topic {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    height: 100%;
+    flex: 0.265;
+    padding: 0 20px;
+}
+
+header div.topic {
+    background: rgba(0, 0, 0, 0.2);
+    flex: 1 1;
+    font-size: 40px;
+    border-radius: 0px 50px 0 0;
+}
+
+footer {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    border-radius: 0 0 50px 50px;
+}
+
+aside, section {
+    height: 600px;
+}
+
+aside {
+    margin-right: 0 !important;
+}
+
+aside h2 {
+    text-align: center;
+}
+
+aside a {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    transition: background .4s;
+}
+
+aside a:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+section {
+    margin-left: 0 !important;
+    width: 720px !important;
+}
+
+section.main form, section.main h3 {
+    padding: 20px;
+    margin-bottom: 0;
+} 
+
+.red {
+    background: red;
+}
+
+.orange {
+    background: orange;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.green {
+    background: green;
+}
+
+.blue {
+    background: blue;
+}
+
+.indigo {
+    background: indigo;
+}
+
+.violet {
+    background: violet;
+}
+
+.glass-thin {
+    background:rgba(255, 255, 255, 0.3);
+}
+
+.glass-med {
+    background:rgba(255, 255, 255, 0.4);
+}
+
+.glass-thick {
+    background:rgba(255, 255, 255, 0.5);
+}
+
+.glass-thin, .glass-med, .glass-thick {
+    /* box-shadow: 0 8px 32px 0 rgba( 100, 100, 100, 0.37 ); */
+    box-shadow: 0 50px 32px rgba( 100, 100, 100, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+}
+
+.images {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.images img {
+    filter: blur(1px) grayscale(80%);
+    transition: filter .4s;
+}
+
+.images img:hover {
+    filter: none;
+}
+
+input {
+    border-radius: 20px;
+}
+
+form {
+    padding: 10px;
+}
